@@ -1,0 +1,173 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: #333;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: 'open sans', 'PingFang SC', 'helvetica neue', 'hiragino sans gb', arial, 'microsoft yahei ui', 'microsoft yahei', simsun, sans-serif;
+}
+
+/*全局样式*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+  /*滚动条样式*/
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 0;
+    background: rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+div,
+dl,
+dt,
+dd,
+form,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+img,
+ol,
+ul,
+li,
+table,
+th,
+td,
+p,
+span,
+a {
+  border: 0;
+}
+
+img,
+input {
+  border: none;
+}
+
+#app {
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a,
+input,
+button {
+  outline: none;
+}
+
+a,
+button {
+  cursor: pointer;
+}
+
+i {
+  font-style: normal;
+}
+
+.pop-contant a {
+  cursor: pointer;
+}
+
+.pop-contant a:hover {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 0;
+}
+
+.ant-table-container table>thead>tr:first-child th:last-child {
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+p,
+span,
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+div:focus {
+  outline: none;
+}
+
+.content-box-bg {
+  background: #fff;
+}
+
+/**
+ 浮动
+ */
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ' ';
+    clear: both;
+    height: 0;
+  }
+}
+
+.relative {
+  position: relative;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  outline: none;
+  text-decoration: none;
+}
